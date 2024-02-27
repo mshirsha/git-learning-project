@@ -1,6 +1,31 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 .card{
-    width:200px;
+    /* width:200px; */
+    height: 300px;
     padding:1rem;
-    background-color: aqua;
+    background-color: rgb(218, 240, 140);
+}
+
+.product-thumb{
+    height:50%
+}
+
+.product-thumb img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem
 }
