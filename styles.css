@@ -37,3 +37,14 @@ body{
     gap:1rem;    
     
 }
+
+
+
+/* Login Page Styles */
+
+.login-page{
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+    background-color: rgb(158, 210, 180);    
+}
